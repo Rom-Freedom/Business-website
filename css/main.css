@@ -131,3 +131,13 @@ body .recieve a:hover {
 body .icons {
   display: flex;
 }
+body .icons h3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+body .icons p {
+  font-size: 18px;
+}
+body .icons div {
+  padding: 15px;
+}
