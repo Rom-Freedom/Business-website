@@ -2,6 +2,19 @@
     nav {
         flex-direction: column;
         justify-content: center;
+        margin-right: 550px;
+    }
+    body header .mainText h1 {
+        margin-right: 550px;
+    }
+    body header .mainText p {
+        margin-right: 550px;
+    }
+    body header .Iwant {
+        margin-right: 550px;
+    }
+    body header .botHeader{
+        margin-right: 550px;
     }
 }
 
