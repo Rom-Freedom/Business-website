@@ -35,9 +35,22 @@
     nav {
         flex-direction: column;
         justify-content: center;
-        padding: 0px 20px;
+        margin-right: 850px;
     }
-    menu {
+    body header .mainText h1 {
+        margin-right: 850px;
+
+    }
+    body header .mainText p {
+        margin-right: 850px;
+    }
+    body header .btn {
+        margin-right: 800px;    
+    }
+    body header .arrowDown{
+        margin-right: 1000px;
+    }
+    /* menu {
         display: flex;
         flex-direction: column;
     }
@@ -51,7 +64,7 @@
     body header .mainText p {
         font-size: 18px;
         padding-bottom: 20px;
-    }
+    } */
     body .expand {
         padding: 10px;
     }
@@ -63,6 +76,12 @@
     body .expand .mainText h1 {
         font-size: 25px;
         margin-bottom: 30px;
+    }
+    body .our_process .steps {
+        display: block;
+    }
+    body .our_process .back_process {
+        display: none;
     }
 }
 
