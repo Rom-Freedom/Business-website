@@ -106,3 +106,31 @@
         margin-bottom: 20px;
     }
 }
+
+/* WE DO */
+@media screen and (max-width: 715px) {
+    .wedo1 {
+        padding: 15px;
+        text-align: center;
+    }
+    .wedo1 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wedo1 .container img {
+        width: 100%;
+    }
+    .wedo1 .container .right {
+        order: 1;
+        max-width: 100%;
+    }
+    .wedo1 .container .left {
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .wedo1 .container .btn {
+        margin-bottom: 20px;
+    }
+}
