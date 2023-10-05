@@ -1,4 +1,32 @@
 body {
+    a.arrowDown {
+        font-size: 30px;
+        text-decoration: none;
+        color: #fc635e;
+        border: 1px solid #fc635e;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        &:hover {
+            background: #fc635e;
+            color: #fff;
+        }
+    }
+    a.btn {
+        color: #fc635e;
+        text-decoration: none;
+        font-size: 20px;
+        border: 2px solid #fc635e;
+        padding: 12px 28px;
+        border-radius: 8px;
+        &:hover {
+            background: #fc635e;
+            color: #fff;
+        }
+    }
     margin: 0 auto;
     max-width: 1260px;
     header {
@@ -59,38 +87,9 @@ body {
                 color: #fff;
                 font-size: 20px;
             }
-            a {
-                color: #fc635e;
-                text-decoration: none;
-                font-size: 20px;
-                border: 2px solid #fc635e;
-                padding: 12px 28px;
-                border-radius: 8px;
-                &:hover {
-                    background: #fc635e;
-                    color: #fff;
-                }
-            }
-        }
-        .botHeader {
-            display: flex;
-            justify-content: center;
-            a {
-                font-size: 30px;
-                text-decoration: none;
-                color: #fff;
-                border-radius: 50%;
-                background: #fc635e;
-                display: flex;
-                width: 45px;
-                height: 45px;
-                justify-content: center;
-                &:hover {
-                    opacity: .7;
-                }
-            }
         }  
     }
+    /* RECIEVES */
     .recieve {
         margin-top: 0;
         text-align: center;
@@ -108,22 +107,6 @@ body {
             font-size: 40px;
             span {
                 color: #fc635e;
-            }
-        }
-        a {
-            font-size: 30px;
-            text-decoration: none;
-            color: #fc635e;
-            border: 1px solid #fc635e;
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-            border-radius: 50%;
-            width: 45px;
-            height: 45px;
-            &:hover {
-                background: #fc635e;
-                color: #fff;
             }
         }    
     }

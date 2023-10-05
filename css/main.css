@@ -1,6 +1,35 @@
 body {
   margin: 0 auto;
   max-width: 1260px;
+  /* RECIEVES */
+}
+body a.arrowDown {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fc635e;
+  border: 1px solid #fc635e;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+body a.arrowDown:hover {
+  background: #fc635e;
+  color: #fff;
+}
+body a.btn {
+  color: #fc635e;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fc635e;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+body a.btn:hover {
+  background: #fc635e;
+  color: #fff;
 }
 body header {
   background: url(../img/background.png) no-repeat;
@@ -62,36 +91,6 @@ body header .mainText p {
   color: #fff;
   font-size: 20px;
 }
-body header .mainText a {
-  color: #fc635e;
-  text-decoration: none;
-  font-size: 20px;
-  border: 2px solid #fc635e;
-  padding: 12px 28px;
-  border-radius: 8px;
-}
-body header .mainText a:hover {
-  background: #fc635e;
-  color: #fff;
-}
-body header .botHeader {
-  display: flex;
-  justify-content: center;
-}
-body header .botHeader a {
-  font-size: 30px;
-  text-decoration: none;
-  color: #fff;
-  border-radius: 50%;
-  background: #fc635e;
-  display: flex;
-  width: 45px;
-  height: 45px;
-  justify-content: center;
-}
-body header .botHeader a:hover {
-  opacity: .7;
-}
 body .recieve {
   margin-top: 0;
   text-align: center;
@@ -111,22 +110,6 @@ body .recieve h1 {
 }
 body .recieve h1 span {
   color: #fc635e;
-}
-body .recieve a {
-  font-size: 30px;
-  text-decoration: none;
-  color: #fc635e;
-  border: 1px solid #fc635e;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-}
-body .recieve a:hover {
-  background: #fc635e;
-  color: #fff;
 }
 body .icons {
   display: flex;
