@@ -2,20 +2,33 @@
     nav {
         flex-direction: column;
         justify-content: center;
-        margin-right: 550px;
+        margin-right: 750px;
     }
     body header .mainText h1 {
-        margin-right: 550px;
+        margin-right: 750px;
+
     }
     body header .mainText p {
-        margin-right: 550px;
+        margin-right: 750px;
     }
-    body header .Iwant {
-        margin-right: 550px;
+    body header .btn {
+        margin-right: 800px;
+        
     }
-    body header .botHeader{
-        margin-right: 550px;
+    body header .arrowDown{
+        margin-right: 1000px;
     }
+    body .expand {
+        padding: 30px 30px 10px 30px;
+    }
+    body .expand .mainText {
+        padding: 50px 0px;
+        margin-bottom: 20px;
+    }
+    body .expand .mainText h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }   
 }
 
 @media screen and (max-width: 464px) {
@@ -38,6 +51,18 @@
     body header .mainText p {
         font-size: 18px;
         padding-bottom: 20px;
+    }
+    body .expand {
+        padding: 10px;
+    }
+    body .expand .mainText {
+        border: none;
+        padding: 30px 0px;
+        margin-bottom: 20px;
+    }
+    body .expand .mainText h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
     }
 }
 
