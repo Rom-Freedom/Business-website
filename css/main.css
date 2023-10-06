@@ -48,6 +48,7 @@ body .mainText h1 span {
 body .mainText p {
   color: #fff;
   font-size: 20px;
+  text-align: center;
 }
 body h1.main_header {
   text-decoration: none;
