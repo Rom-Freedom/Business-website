@@ -107,7 +107,7 @@
     }
 }
 
-/* WE DO */
+/* WE DO 1*/
 @media screen and (max-width: 715px) {
     .wedo1 {
         padding: 15px;
@@ -156,6 +156,33 @@
         margin-bottom: 30px;
     }
     .wedo2 .container .btn {
+        margin-bottom: 20px;
+    }
+}
+/* WE DO 3*/
+@media screen and (max-width: 715px) {
+    .wedo3 {
+        padding: 15px;
+        text-align: center;
+    }
+    .wedo3 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wedo3 .container img {
+        width: 100%;
+    }
+    .wedo3 .container .right {
+        order: 1;
+        max-width: 100%;
+    }
+    .wedo3 .container .left {
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .wedo3 .container .btn {
         margin-bottom: 20px;
     }
 }
