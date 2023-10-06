@@ -3,7 +3,8 @@ body {
   max-width: 1260px;
   /* RECIEVES */
   /* EXPAND */
-  /* WE DO */
+  /* WE DO 1*/
+  /* WE DO 2*/
 }
 body a.arrowDown {
   font-size: 30px;
@@ -195,4 +196,35 @@ body .wedo1 .left {
 }
 body .wedo1 .right {
   max-width: 50%;
+}
+body .wedo2 {
+  padding: 25px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container {
+  display: flex;
+  justify-content: space-around;
+}
+body h2,
+body p {
+  color: gray;
+}
+body h2 {
+  text-transform: uppercase;
+  border-right: 10px solid #fc635e;
+  padding-right: 5px;
+}
+body p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+body .left {
+  max-width: 50%;
+}
+body .right {
+  max-width: 50%;
+  text-align: right;
 }
