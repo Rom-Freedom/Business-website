@@ -186,3 +186,11 @@
         margin-bottom: 20px;
     }
 }
+
+/* OUR TEAM */
+@media screen and (max-width: 590px) {
+    body .our_team .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+}
